@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pkl
+*.h5
+*.weights.h5
+models/
+plots/
+.env
+venv/
+.DS_Store
+.ipynb_checkpoints/
