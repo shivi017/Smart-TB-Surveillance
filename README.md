@@ -1,6 +1,25 @@
-# 🫁 Smart TB Surveillance: Integrating AI for Early Diagnosis and Spread Monitoring
+# Smart TB Surveillance: Integrating AI for Early Diagnosis and Spread Monitoring
 
 This repository contains the Major Project for automated Tuberculosis detection from chest X-ray images.
+## Project Role & Contributions
+As the **Team Leader and Principal Developer**, I was responsible for the design, implementation, and evaluation of the deep learning framework used in this Major Project. My work involved integrating computational rigor with applied medical imaging to ensure reliable diagnostic performance.  
+### Research & Design
+Conducted an extensive study of CNN architectures and selected transfer learning models suitable for tuberculosis detection, including *ResNet50, DenseNet121, EfficientNetB0, InceptionV3, Xception,* and *MobileNetV2*.  
+
+### Data Engineering
+Developed preprocessing workflows for DICOM-to-PNG conversion, image normalization, and stratified dataset partitioning to maintain data balance and integrity.  
+
+### Model Training & Analysis
+Implemented K-Fold cross-validation and comparative performance evaluation across architectures, identifying *ResNet50* as the most robust baseline model.  
+
+### Hyperparameter Optimization
+Utilized **Keras Tuner (Hyperband)** for systematic tuning of learning rate, dropout, and dense layer configurations—resulting in an ROC-AUC improvement from **0.91 → 0.96** and an F1-score increase from **0.82 → 0.89**.  
+
+### Final Model Development
+Trained and validated the optimized *ResNet50* model achieving **96.5% accuracy**, and deployed it as a real-time **Streamlit web application** for end-user testing.  
+
+### Leadership
+Oversaw the technical workflow, coordinated the team’s research activities, and ensured documentation aligned with academic and reproducibility standards.
 
 ## Contents
 - `di_convert.py` : DICOM to PNG conversion and preprocessing
